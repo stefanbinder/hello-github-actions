@@ -1,0 +1,21 @@
+name: "Hello Actions"
+description: "Greet somebody"
+author: "Stefan Binder"
+
+inputs:
+        MY_NAME:
+                description: "Who to greet"
+                required: true
+                default: "World"
+
+runs:
+        using: "docker"
+        image: "Dockerfile"
+
+branding:
+        icon: "mic"
+        color: "purple"
+
+       
+
+
